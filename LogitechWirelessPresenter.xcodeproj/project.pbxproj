@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE543173163EC61700E8058B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE543171163EC61700E8058B /* InfoPlist.strings */; };
+		CE543176163EC61700E8058B /* LogitechWirelessPresenterDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE543175163EC61700E8058B /* LogitechWirelessPresenterDriver.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE543169163EC61600E8058B /* LogitechWirelessPresenter.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogitechWirelessPresenter.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE54316D163EC61600E8058B /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = System/Library/Frameworks/Kernel.framework; sourceTree = SDKROOT; };
+		CE543170163EC61700E8058B /* LogitechWirelessPresenter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogitechWirelessPresenter-Info.plist"; sourceTree = "<group>"; };
+		CE543172163EC61700E8058B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE543174163EC61700E8058B /* LogitechWirelessPresenterDriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogitechWirelessPresenterDriver.h; sourceTree = "<group>"; };
+		CE543175163EC61700E8058B /* LogitechWirelessPresenterDriver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LogitechWirelessPresenterDriver.cpp; sourceTree = "<group>"; };
+		CE543177163EC61700E8058B /* LogitechWirelessPresenter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogitechWirelessPresenter-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE543164163EC61600E8058B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE54315C163EC61600E8058B = {
+			isa = PBXGroup;
+			children = (
+				CE54316E163EC61600E8058B /* LogitechWirelessPresenter */,
+				CE54316B163EC61600E8058B /* Frameworks */,
+				CE54316A163EC61600E8058B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE54316A163EC61600E8058B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE543169163EC61600E8058B /* LogitechWirelessPresenter.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE54316B163EC61600E8058B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE54316C163EC61600E8058B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE54316C163EC61600E8058B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE54316D163EC61600E8058B /* Kernel.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CE54316E163EC61600E8058B /* LogitechWirelessPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				CE543174163EC61700E8058B /* LogitechWirelessPresenterDriver.h */,
+				CE543175163EC61700E8058B /* LogitechWirelessPresenterDriver.cpp */,
+				CE54316F163EC61700E8058B /* Supporting Files */,
+			);
+			name = LogitechWirelessPresenter;
+			path = LogitechPresentationRemote;
+			sourceTree = "<group>";
+		};
+		CE54316F163EC61700E8058B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE543170163EC61700E8058B /* LogitechWirelessPresenter-Info.plist */,
+				CE543171163EC61700E8058B /* InfoPlist.strings */,
+				CE543177163EC61700E8058B /* LogitechWirelessPresenter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CE543165163EC61600E8058B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CE543168163EC61600E8058B /* LogitechWirelessPresenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE54317A163EC61700E8058B /* Build configuration list for PBXNativeTarget "LogitechWirelessPresenter" */;
+			buildPhases = (
+				CE543163163EC61600E8058B /* Sources */,
+				CE543164163EC61600E8058B /* Frameworks */,
+				CE543165163EC61600E8058B /* Headers */,
+				CE543166163EC61600E8058B /* Resources */,
+				CE543167163EC61600E8058B /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogitechWirelessPresenter;
+			productName = LogitechPresentationRemote;
+			productReference = CE543169163EC61600E8058B /* LogitechWirelessPresenter.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE54315E163EC61600E8058B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ake Koomsin";
+			};
+			buildConfigurationList = CE543161163EC61600E8058B /* Build configuration list for PBXProject "LogitechWirelessPresenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE54315C163EC61600E8058B;
+			productRefGroup = CE54316A163EC61600E8058B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE543168163EC61600E8058B /* LogitechWirelessPresenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE543166163EC61600E8058B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE543173163EC61700E8058B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		CE543167163EC61600E8058B /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE543163163EC61600E8058B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE543176163EC61700E8058B /* LogitechWirelessPresenterDriver.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE543171163EC61700E8058B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE543172163EC61700E8058B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE543178163EC61700E8058B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE543179163EC61700E8058B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE54317B163EC61700E8058B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogitechPresentationRemote/LogitechWirelessPresenter-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "LogitechPresentationRemote/LogitechWirelessPresenter-Info.plist";
+				MODULE_NAME = th.in.ake.LogitechPresentationRemote;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = LogitechWirelessPresenter;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		CE54317C163EC61700E8058B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogitechPresentationRemote/LogitechWirelessPresenter-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "LogitechPresentationRemote/LogitechWirelessPresenter-Info.plist";
+				MODULE_NAME = th.in.ake.LogitechPresentationRemote;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = LogitechWirelessPresenter;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE543161163EC61600E8058B /* Build configuration list for PBXProject "LogitechWirelessPresenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE543178163EC61700E8058B /* Debug */,
+				CE543179163EC61700E8058B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE54317A163EC61700E8058B /* Build configuration list for PBXNativeTarget "LogitechWirelessPresenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE54317B163EC61700E8058B /* Debug */,
+				CE54317C163EC61700E8058B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE54315E163EC61600E8058B /* Project object */;
+}
