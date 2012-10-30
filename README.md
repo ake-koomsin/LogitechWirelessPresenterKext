@@ -20,3 +20,8 @@ Actually, Logitech Wireless Presenter R400/R800 is just a keyboard. The main ide
 LogitechWirelessPresenterDriver simply overrides dispatchKeyboardEvent() to replace an appropriate keys.
 
 LogitechWirelessPresenterDriver is a subclass of IOHIDEventDriver which is a subclass of IOHIDEventService where dispatchKeyboardEvent() resides.
+
+License
+-------
+
+This source code is under MIT License.
