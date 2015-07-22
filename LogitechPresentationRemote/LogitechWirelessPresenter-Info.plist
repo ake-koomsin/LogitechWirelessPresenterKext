@@ -24,6 +24,25 @@
 	<string>1</string>
 	<key>IOKitPersonalities</key>
 	<dict>
+		<key>Presenter R400/R800 (jap ver.)</key>
+		<dict>
+			<key>ProductID</key>
+			<integer>254</integer>
+			<key>VendorID</key>
+			<integer>3727</integer>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>CFBundleIdentifier</key>
+			<string>th.in.ake.${PRODUCT_NAME:rfc1034identifier}</string>
+			<key>IOResourceMatch</key>
+			<string>IOKit</string>
+			<key>IOMatchCategory</key>
+			<string>LogitechWirelessPresenterDriver</string>
+			<key>IOClass</key>
+			<string>LogitechWirelessPresenterDriver</string>
+			<key>IOProviderClass</key>
+			<string>IOHIDInterface</string>
+		</dict>
 		<key>Presenter R400/R800</key>
 		<dict>
 			<key>ProductID</key>
