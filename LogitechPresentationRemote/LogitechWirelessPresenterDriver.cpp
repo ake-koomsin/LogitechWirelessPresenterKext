@@ -38,6 +38,9 @@ void LogitechWirelessPresenterDriver::dispatchKeyboardEvent(AbsoluteTime  timeSt
      Logitech Wireless Presenter R400/R800 is basically a keyboard.
      */
     if (usagePage == kHIDPage_KeyboardOrKeypad) {
+        if (usage == kHIDUsage_KeyboardLeftShift || usage == kHIDUsage_KeyboardLeftShift) {
+            usage = 0;
+        }
         if (usage == kHIDUsage_KeyboardPeriod) {
             usage = kHIDUsage_KeyboardB;
         } else if (usage == kHIDUsage_KeyboardF5) {
