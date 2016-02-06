@@ -9,7 +9,7 @@ Logitech Wireless Presenter R400/R800 is initially designed for Microsoft PowerP
 Installation
 ------------
 
-- You can compile from the source code, put LogitechWirelessPresenter.kext to /System/Library/Extensions and run 'sudo kextutil /System/Library/Extensions/LogitechWirelessPresenter.kext'
+You can compile from the source code, put LogitechWirelessPresenter.kext to /System/Library/Extensions and run 'sudo kextutil /System/Library/Extensions/LogitechWirelessPresenter.kext'
 
 Note that for OS X 10.11 onwards, you need your developer account to sign the kernel extension and put it to /Library/Extensions. Otherwise, you need to disable System Integrity Protection.
 
